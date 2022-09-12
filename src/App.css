@@ -1,0 +1,116 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.title{
+
+  width: 800px;
+}
+input {
+  width: 300px;
+  margin-right: 10px;
+  height: 30px;
+  border: 3px solid rgb(77, 255, 77) ;
+  background-color: #eaeaea;
+  color: black
+}
+input:hover{
+  background-color: rgb(237, 251, 233);
+}
+button {
+  background-color: rgb(50, 205, 205);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid rgb(64, 255, 0);
+  font-weight: bold;
+}
+button:hover {
+  background-color: #35c119;
+}
+
+.location h2{
+  font-size: 30px;
+  margin-top: 20px;
+  color: #22a108;
+  text-shadow: 0.5px 0.5px 0.5px rgb(0, 255, 170);
+}
+.location-title{
+  text-align: center;
+  margin-left: -40px;
+}
+.sub-info {
+  font-size: 20px;
+}
+.card-info-container {
+  background: rgba(50, 205, 205, 0.237);
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  padding-bottom:  15px
+}
+.other-info {
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-character {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.character {
+  background: rgba(95, 214, 115, 0.227);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 250px;
+  width: 430px;
+  margin: 20px;
+}
+img {
+  height: 200px;
+  width: 180px;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  font-size: 15px;
+  color: #22a108;
+  font-weight: 900;
+  text-shadow: 0.5px 0.5px 0.5px rgb(91, 201, 170);
+}
+h5 {
+  font-size: 12px;
+  margin-top: -10px;
+  color: rgb(50, 205, 205);
+  text-align: left;
+}
+span {
+  color: rgb(255, 255, 255);
+}
+.complete-info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.alive-dead{
+  color: red;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
